@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        form {
+           border: 1px solid black;
+           display: flex;
+           flex-direction: column;
+           width: fit-content;
+           margin: auto;
+           /* padding: 10px; */
+           background-color: rgb(0, 253, 173);
+           box-shadow: 2px 1px 1px 2px rgba(34, 119, 104, 0.779);
+           margin-top: 100px;
+           padding: 100px;
+        }
+        body {
+            background-image: url(https://o.vdoc.vn/data/image/2021/01/30/hinh-nen-tet-7.jpg);
+            background-size: 25%;
+        }
+        #button {
+            height: 40px;
+            font-size: 20px;
+            background-color: yellow;
+            color: red;
+        }
+        .account {
+            border-radius: 8px;
+            background-color: white;
+            height: 30px;
+            /* width: 250px; */
+        }
+        .account:hover {
+            box-shadow: 2px 1px 1px 2px #6b6868 ;
+        }
+        h1 {
+            text-align: center;
+            font-family:  'Arial Narrow Bold', sans-serif;
+        }
+        #button:hover {
+            box-shadow: 1px 1px 1px 1px #6b6868 ;
+        }
+        span {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="middle">
+    <form id="loginForm">
+        <h1>🌸🌸Đăng nhập tài khoản🌸🌸</h1>
+        <label for="username">Tên người dùng:</label>
+        <input class="account" id="username" type="text" placeholder="Username của bạn" required>
+        <label for="password">Mật khẩu:</label>
+        <input class="account" id="password" type="password" placeholder="Password của bạn" required>
+        <label for="email" >Email:</label>
+        <input class="account" id="email" type="email" placeholder="Email của bạn" required >
+        <br>
+        <!-- <input id="submitbtn" type="submit" value="sign in"> -->
+        <button id="button" type="submit" onclick="SignIn()"><b>Đăng nhập</b></button>
+        <br>
+        <span>Nếu bạn chưa có tài khoản thì hãy <a href="register.html">Đăng ký tài khoản </a>tại đây ?</span>
+    </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
