@@ -22,7 +22,6 @@ body {
        padding: 12px;
        color: yellow;
        font-style: oblique;
-       
 }
 .navbar:hover {
        background-color: rgb(255, 255, 86);
@@ -111,4 +110,5 @@ ol {
        display: flex;
        flex-wrap: nowrap;
 }
+
 

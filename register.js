@@ -22,7 +22,7 @@
 // })
 var usernameinput = document.getElementById("username");
 var passwordinput = document.getElementById("password");
-var emailinput = document.getElementById("email")
+var emailinput = document.getElementById("email");
 var repasswordinput = document.getElementById("repassword");
 var signupbutton = document.getElementById("button");
 
