@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="navbar-main">
-    <h1 style="text-align: center; border-bottom: 5px solid rgb(212, 255, 0); font-size: 75px; margin: 0;">MUSIC</h1>
+    <h1 style="text-align: center; border-bottom: 5px solid rgb(13, 93, 205); font-size: 75px; margin: 0; color: rgb(0, 102, 255);">MUSIC</h1>
     <div class="navbar-part">
         <div></div>
         <div class="navbar2">
@@ -18,119 +18,141 @@
         <a href="index.html" class="navbar"><b>Home</b></a>
         <a href="login.html" class="navbar"><b>Login</b></a>
         <a href="register.html" class="navbar"><b>Register</b></a>
+        <a href="genres.html" class="navbar"><b>Genres</b></a>
         </div>
         <div style="display: flex; ">
-            <input placeholder="tìm kiếm" class="navbar-search"><span class="material-symbols-outlined">
+            <input placeholder="tìm kiếm" class="navbar-search"><span class="material-symbols-outlined" style="font-size: 40px;">
                 search
                 </span>
         </div>
     </div>
 </div>
- <div class="card-row">
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/gOtfJ151ue4"
-            title="Tết Đong Đầy | KHOA x Kay Tran x Duck V | HOMIE BOIZ OFFICIAL" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát TẾT ĐONG ĐẦY</span><br>
-        <span>Được sáng tác bởi KHOA x Kay Trần x Duck V</span><br>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/kDmOOj5Y0DI"
-            title="BÍCH PHƯƠNG x MIRINDA - Chuyện Cũ Bỏ Qua (Official M/V)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát CHUYỆN CŨ BỎ QUA</span><br>
-        <span>Được sáng tác bởi BÍCH PHƯƠNG x MIRINDA</span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/rY_TokmO9CU"
-            title="Anh Rồng - Bánh Chưng Nhân Tết | Official music video (Nhạc Tết 2022)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát BÁNH CHƯNG NHÂN TẾT</span><br>
-        <span>Được sáng tác bởi Anh Rồng</span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/Thf6-faRGI4"
-            title="VIRAL CLIP - MỘT NĂM MỚI BÌNH AN | SƠN TÙNG M-TP" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát MỘT NĂM MỚI BÌNH AN</span><br>
-        <span>Được sáng tác bởi SƠN TÙNG MTP</span>
-    </div>
+<div class="playlist-container row" id="playlistContainer">
+    <!-- <div class="track-card">
+        <img src="https://avatar-ex-swe.nixcdn.com/song/2024/02/28/e/3/6/9/1709132786763_640.jpg"
+            alt="${track.name}">
+        <div class="details">
+            <h2>Pho real</h2>
+            <p>Low G, Anh Phan, bbno$</p>
+            <button class="favorite-button">❤</button>
+        </div>
+        <iframe src="https://open.spotify.com/embed/track/0OIed6UFpfT2nW4BffD7Js"
+            allow="encrypted-media"></iframe>
+    </div> -->
 </div>
-<br>
-    <div class="card-row">
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/1VyyNysZ_lY"
-            title="HIT TẾT 2023 | TẾT HÀ HÁ HA - NINH DƯƠNG LAN NGỌC X TRÚC NHÂN" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát TẾT HÀ HÁ HA</span><br>
-        <span>Được sáng tác bởi NINH DƯƠNG LAN NGỌC X TRÚC NHÂN</span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/jPO17W-_r1M"
-            title="Rồi Nâng Cái Ly - Nal | Official Music Video | Hit Tết 2022" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát Rồi Nâng Cái Ly</span><br>
-        <span>Được sáng tác bởi DreamS Productions</span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/D1Vu1bm8mFM"
-            title="TRÚC NHÂN x KNORR – CÓ VỊ NÀO HƠN VỊ TẾT NHÀ (OFFICIAL M/V)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát CÓ VỊ NÀO HƠN VỊ TẾT NHÀ</span><br>
-        <span>Được sáng tác bởi TRÚC NHÂN x KNORR </span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/YtH1P4X-8_o"
-            title="Trúc Nhân x HIEUTHUHAI x Bùi Công Nam - TẾT NHỚ TỚI GIÀ (Official M/V)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát TẾT NHỚ TỚI GIÀ</span><br>
-        <span>Được sáng tác bởi Trúc Nhân x HIEUTHUHAI x Bùi Công Nam</span>
-    </div>
     </div>
     <br>
-    <div class="card-row">
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/giBkeGuzvLU"
-            title="Chúc Tết Mọi Nhà - Hồ Ngọc Hà, Noo Phước Thịnh (Official Music Video)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát Chúc Tết Mọi Nhà</span><br>
-        <span>Được sáng tác bởi Hồ Ngọc Hà, Noo Phước Thịnh</span>
+    <div><h1 class="color-text">Chúng tôi sẽ luôn cố gắng cập nhật các bài hát mới nhất</h1></div>
+    <div class="Footer">
+        <ol>
+            <div>
+                <li class="footer-part">Website được xây dựng bởi:</li>
+                <ul>
+                    <li><a>Phan Nhật Hưng</a></li>
+                    <li><a>Mindx</a></li>
+                    <li><a>W3school</a></li>
+                    <li><a>Nguyễn Bình Minh</a></li>
+                </ul>
+            </div>
+            <div>
+                <li class="footer-part">Cộng đồng:</li>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                    <li>Twitter(X)</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+            <div>
+                <li class="footer-part">Hỗ trợ người dùng:</li>
+                <ul>
+                    <li>Nói chuyện với nhà phát triển</li>
+                    <li>Hướng dẫn cách sử dụng webiste</li>
+                    <li>Xử lí lỗi , bug</li>
+                    <li>Tư vấn người dùng</li>
+                </ul>
+            </div>
+        </ol>
     </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/F9aLdanAtKM"
-            title="BÍCH PHƯƠNG ft. BÌNH GOLD - Tuổi Gì Mà Chẳng Thích Lì Xì (Official M/V)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát Tuổi Gì Mà Chẳng Thích Lì Xì</span><br>
-        <span>Được sáng tác bởi BÍCH PHƯƠNG ft. BÌNH GOLD</span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/D2sphpU3SOY"
-            title="Tết Nhà Mình | Hòa Minzy x Lăng LD x Huỳnh Hiền Năng | Gala Nhạc Việt (Official)" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát TẾT NHÀ MÌNH</span><br>
-        <span>Được sáng tác bởi Hòa Minzy x Lăng LD x Huỳnh Hiền Năng</span>
-    </div>
-    <div class="card-content">
-        <iframe width="300px" height="180" src="https://www.youtube.com/embed/b0MTyBoKz1I"
-            title="TẾT LÀ ĐÔNG MỚI VUI - ĐỨC PHÚC x GDUCKY x DTAP | OFFICIAL MUSIC VIDEO" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        <span>Bài hát TẾT LÀ ĐÔNG MỚI VUI</span><br>
-        <span>Được sáng tác bởi ĐỨC PHÚC x GDUCKY x DTAP</span>
-    </div>
-    </div>
-    <br>
-    <div><h1 class="color-text">Chúng tôi sẽ luôn cố gắng cập nhật các bài hát Tết mới nhất</h1></div>
 </body>
+<script>
+    const clientId = "b8eccf8d76144ef3963252498eddc4a9";
+    const clientSecret = "5a0b15cf15f64956bd8aadd357c331a5";
+
+    const tokenUrl = 'https://accounts.spotify.com/api/token';
+    const encodedCredentials = btoa(`${clientId}:${clientSecret}`);
+    const body = 'grant_type=client_credentials';
+
+    fetch(tokenUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': `Basic ${encodedCredentials}`
+        },
+        body: body
+    })
+        .then(response => response.json())
+        .then(data => {
+            if (data.access_token) {
+                fetchPlaylistDetails(data.access_token);
+            } else {
+                alert('Failed to get access token');
+            }
+        })
+        .catch(error => console.error('Error fetching access token:', error));
+
+
+    function fetchPlaylistDetails(token) {
+        const playlistId = '3AatvkEV7OaIg3w2O1sXEA'; // Example playlist ID //3jQYYDZ7XrDNmWyKwfJrP4
+
+        fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                const playlistContainer = document.getElementById('playlistContainer');
+                playlistContainer.innerHTML = ''; // Clear previous content
+
+                data.tracks.items.forEach(item => {
+                    const track = item.track;
+                    const isFavorited = localStorage.getItem(track.id) === 'true';
+                    const favoriteIcon = isFavorited ? '❤️' : '🤍';
+                    const trackCardHTML = `
+                        <div class="track-card">
+                            <img src="${track.album.images[0].url}" alt="${track.name}">
+                            <div class="details">
+                                <h2>${track.name}</h2>
+                                <p>${track.artists.map(artist => artist.name).join(', ')}</p>
+                                <button class="favorite-button ${isFavorited ? 'favorited' : ''}" data-track-id="${track.id}">${favoriteIcon}</button>
+                            </div>
+                            <iframe src="https://open.spotify.com/embed/track/${track.id}" allow="encrypted-media"></iframe>
+                        </div>
+                    `;
+                    playlistContainer.innerHTML += trackCardHTML;
+                });
+                const favoriteButtons = document.querySelectorAll('.favorite-button');
+                favoriteButtons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        const trackId = button.getAttribute('data-track-id');
+                        const isFavorited = button.classList.contains('favorited');
+                        const trackName = button.parentElement.querySelector('h2').textContent;
+                        const imageName = button.parentElement.parentElement.querySelector('img').src;
+                        const artist = button.parentElement.parentElement.querySelector("p").textContent;
+                        // 
+                        if (isFavorited) {
+                            localStorage.removeItem(trackId);
+                        } else {
+                            localStorage.setItem(trackId, JSON.stringify({ trackName, imageName , artist}));
+                        }
+
+                        button.classList.toggle('favorited');
+                        button.textContent = isFavorited ? '🤍' : '❤️';
+                    });
+                });
+            })
+            .catch(error => console.error('Error fetching playlist details:', error));
+    }
+    </script>
 </html>
